@@ -1,0 +1,133 @@
+.bg-con {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.main-con {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  background-color: transparent;
+}
+.con-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.timer-con {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 30%;
+  padding: 20px;
+}
+.timer {
+  color: #00d9f5;
+  font-size: 40px;
+  font-weight: bold;
+}
+.timer-status {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: bold;
+}
+.con-2 {
+  background-color: transparent;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0f172a;
+}
+.control-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+.mini-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.reset-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+button {
+  border-width: 0px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-para {
+  font-size: 25px;
+  font-weight: bold;
+}
+.reset-para {
+  font-size: 25px;
+  font-weight: bold;
+}
+.set-con {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+}
+.set-para {
+  color: #0f172a;
+  font-size: 22px;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.set-btn {
+  font-size: 25px;
+  margin: 0px 10px;
+}
+
+@media (max-width: 768px) {
+  .main-con {
+    flex-direction: column;
+  }
+  .con-1 {
+    width: 100%;
+    height: 50%;
+  }
+  .con-2 {
+    width: 100%;
+    height: 50%;
+  }
+}
